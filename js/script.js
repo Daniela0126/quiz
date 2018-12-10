@@ -8,7 +8,21 @@ $(document).ready(function() {
         var q1Result = $("#question1").val();
         var q2Result = $("#question2").val();
         var q3Result = $("#question3").val();
+        var q4Result = $("#question3").val();
         var totalScore;
     });
 
 });
+
+function living(name){
+    if(name === "Savannah"){
+        return "10 point";
+    }
+    else if(name === "Coast Line"){
+        return "7 points";
+    }
+    else if(name === "Forest"){
+        return "4 points";
+    }
+    else if(name === "4 points");
+}
